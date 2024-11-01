@@ -6,7 +6,8 @@ local WhitelistedPlayers = {
     "manoeusouojosuares",
     "pokemongirl1213",
     "deathiscoming1234000",
-    "REAL999WRLD"
+    "REAL999WRLD",
+    "OmarAa557"
 }
 
 local player = game.Players.LocalPlayer
