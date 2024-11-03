@@ -13,7 +13,8 @@ local WhitelistedPlayers = {
     "unevenDifference",
     "StacySanders9",
     "imnothaingg",
-    "ZiroSlyth"
+    "ZiroSlyth",
+    "bayandshi"
 }
 
 local player = game.Players.LocalPlayer
