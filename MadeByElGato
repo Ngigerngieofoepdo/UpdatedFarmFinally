@@ -22,7 +22,7 @@ local WhitelistedPlayers = {
 
 local player = game.Players.LocalPlayer
 if table.find(WhitelistedPlayers, player.Name) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/SlapFarmHWIDHolder/refs/heads/main/HWID"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/SlapFarmHWIDHolder/refs/heads/main/HWID"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/PremiumExecutedChecker/refs/heads/main/GatosPremiumLogger"))()
 else
     
