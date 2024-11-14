@@ -1,34 +1,3 @@
-local WhitelistedPlayers = {
-    "AHHS3FTXY",
-    "ZenoisGone",
-    "erronnamo13",
-    "rip_kolva",
-    "manoeusouojosuares",
-    "pokemongirl1213",
-    "deathiscoming1234000",
-    "REAL999WRLD",
-    "OmarAa557",
-    "unsettlingKnitter",
-    "HimFr12309",
-    "unevenDifference",
-    "StacySanders9",
-    "imnothaingg",
-    "ZiroSlyth",
-    "bayandshi",
-    "NotthingHnanw21ddzxx",
-    "Idkwhattoputhere2849",
-    "JaviRespawn",
-    "Skrillzkill",
-    "Ace_4c30"
-}
-
-local player = game.Players.LocalPlayer
-if table.find(WhitelistedPlayers, player.Name) then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/SlapFarmHWIDHolder/refs/heads/main/HWID"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/PremiumExecutedChecker/refs/heads/main/GatosPremiumLogger"))()
-else
-    
-
 game.Players.LocalPlayer:Kick("Unauthorized access. Don't try skidding again, MF.")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ngigerngieofoepdo/WhoExecutedHolder/refs/heads/main/GatosSkidChecker"))()
 end
